@@ -1,0 +1,4 @@
+,auc_val,macro_f1_val
+todos os atributos,0.9451,0.8708
+só classificação orçamentária,0.9462,0.8771
+só localidade (municipais + UF/região/bioma),0.6519,0.6228

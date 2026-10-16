@@ -1,0 +1,38 @@
+{
+  "A \u2014 Melhor Optuna": {
+    "n_layers": 2,
+    "units": 32,
+    "shape": "constante",
+    "activation": "relu",
+    "dropout": 0.2611160690210018,
+    "l2": 2.381895375882678e-05,
+    "batchnorm": true,
+    "lr": 0.0023513644034690584,
+    "batch_size": 512,
+    "patience": 20
+  },
+  "B \u2014 Compacta": {
+    "n_layers": 1,
+    "units": 32,
+    "shape": "constante",
+    "activation": "relu",
+    "dropout": 0.3780313550060566,
+    "l2": 4.85278156784125e-06,
+    "batchnorm": true,
+    "lr": 0.001631343633437024,
+    "batch_size": 512,
+    "patience": 20
+  },
+  "C \u2014 Profunda regularizada": {
+    "n_layers": 4,
+    "units": 512,
+    "shape": "constante",
+    "activation": "relu",
+    "dropout": 0.3,
+    "l2": 0.0001,
+    "batchnorm": true,
+    "lr": 0.0023513644034690584,
+    "batch_size": 512,
+    "patience": 10
+  }
+}
